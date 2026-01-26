@@ -1,0 +1,26 @@
+Coffee Making
+
+INPUT Water, Kettle, Cup
+
+FUNCTION Boil Water (Water,Kettle)
+RETURN Hot Water
+
+FUNCTION Pour Hot Water Into Cup (Hot Water, Cup)
+RETURN Water Cup
+
+INPUT Coffee
+
+FUNCTION Add Coffee (Water Cup, Coffee)
+RETURN Coffee Cup
+
+INPUT Spoon
+
+IF (user wants sugar)
+THEN
+INPUT Sugar
+ENDIF
+
+PROCESS Stir
+
+OUTPUT Coffee Cup
+
