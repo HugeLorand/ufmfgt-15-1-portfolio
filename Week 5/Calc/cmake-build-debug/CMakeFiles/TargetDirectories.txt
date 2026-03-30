@@ -1,3 +1,0 @@
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 5/Calc/cmake-build-debug/CMakeFiles/Calc.dir
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 5/Calc/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 5/Calc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

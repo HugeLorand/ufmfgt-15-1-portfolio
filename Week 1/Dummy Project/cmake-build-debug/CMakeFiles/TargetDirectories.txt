@@ -1,3 +1,0 @@
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/Programming/cmake-build-debug/CMakeFiles/Programming.dir
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/Programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/le2-petrindean/OneDrive - UWE Bristol/Programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
