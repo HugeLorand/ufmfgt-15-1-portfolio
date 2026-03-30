@@ -1,0 +1,3 @@
+C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 2/Signal/cmake-build-debug/CMakeFiles/Signal.dir
+C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 2/Signal/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/le2-petrindean/OneDrive - UWE Bristol/ufmfgt-15-1-portfolio/Week 2/Signal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

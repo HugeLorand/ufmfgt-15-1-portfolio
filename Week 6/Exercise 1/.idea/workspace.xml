@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Exercise_1" targetName="Exercise_1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a72e65cc-12c2-4085-aef4-b7891c91bd3c" name="Changes" comment="Practice">
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Coffee Making.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Converter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/.idea/Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dc5e93512dde5cf9cbb9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6683450719ee29842bc7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5f96fa0b4e1984eba392.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/index-2026-01-26T11-27-37-0082.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/target-Programming-Debug-cb5120161d7d10904f6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/Programming.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/Programming.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Dummy Project/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Traffic.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 1/Week1_Converter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/.idea/Signal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f41d3e010ba79d22d85a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-306d9dfb5dbcf5fe0a55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-19cfc385f4ff56d37845.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-02T12-26-57-0516.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/target-Signal-Debug-60f5929937fb711162dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/Signal.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/Signal.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Signal/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/.idea/Triangle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8bb43ab7610cc58d2dbd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3c314a8bbc03ee421872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5c419c08d606adbd0997.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-02T12-21-48-0107.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/target-Triangle-Debug-1088801fee7b125aed44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-40a45361301b1337b711.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/Triangle.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/Triangle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/Triangle/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 2/untitled/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/.idea/Data.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/cache-v2-865a967d613a21f976e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e319d76f31aae452d30d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-722d82b78bb1c9d8752a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-09T11-19-06-0052.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/target-Data-Debug-cd0fab3d6af393dc0620.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/Data.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/Data.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Data/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/.idea/Signal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f546730b6f260830ec55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1135b901bbb0a3b6a8d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-60a1f044732d28c0416c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-09T12-38-37-0145.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/target-Signal-Debug-1aade0625988e47dd6e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/Signal.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/Signal.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 3/Signal/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/Exercise 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5d135953acfde15757e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-35f328536fb5d046c749.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4b208961ff034c7c622b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-16T11-13-21-0358.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_1-Debug-daae793de243b928705c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/Exercise_1.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/Exercise_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 1/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/Exercise 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6daec6d7b9882a36d37f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6fd16920595550dcd60f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-502db1cdbcd6300bf192.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-16T11-26-58-0964.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_2-Debug-b0f96684e49f16824d8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/Exercise_2.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/Exercise_2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/Exercise 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1a10aefa2971ec42386c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a5523ec0f68792df0304.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-183e36d93be9f4d73db4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-16T11-40-21-0572.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_3-Debug-913841e0aa0cb14f6306.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/Exercise_3.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/Exercise_3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/Exercise 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-890a25248478e2e074d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f91abe48e8d98cdee1ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-40d818a8bbac3cc76c88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-16T11-47-53-0589.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_4-Debug-dab08e07e11b9fd41835.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/Exercise_4.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/Exercise_4.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 4/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/Exercise 5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/cache-v2-2377c7caff1ccd1890c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-fbaa977134ade58c3789.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9a761f67b6a07ec0069d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-16T12-13-04-0106.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_5-Debug-c6f054235f4c3ddc96aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/Exercise_5.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/Exercise_5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 4/Exercise 5/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/.idea/Calc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/cache-v2-389c4dde7589daeed1ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-95d8bf6ab776996bd88c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-844a50a61366ff6ab93e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/index-2026-02-23T11-14-23-0996.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/target-Calc-Debug-dcf4487ae5e79be21659.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/Calc.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/Calc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 5/Calc/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Exercise 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5b60a866c0a728baa8b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-32d6138362745fd8b623.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-11ab0e0573583684317c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-30T10-11-50-0500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_1-Debug-abeedf75ff32bb436bcf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/Exercise 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7700f17d969c22403845.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0e27675985f2e41145cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e54a665cf48da8f85c97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-02T11-24-03-0000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_2-Debug-7e2ee7839109ba4e609d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/Exercise_2.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/Exercise_2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/Exercise 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-defad88a654a9be3e62d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c6317ead16c6e8a42c3c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-96b95dc9e64f6dd1bba5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-02T11-36-29-0822.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_3-Debug-656ffd910a4e06696339.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/Exercise_3.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/Exercise_3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/Exercise 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-20976d9c2f06f7f02942.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2e352b9959ed58bb4688.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6ff16d042b53db22be67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-02T12-21-36-0762.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_4-Debug-8d418b3d1ff236b7b896.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/Exercise_4.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/Exercise_4.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise 4/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/Exercise 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6ab50978a6e6d82b69e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-19b0de7434fde7a52ed6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-05d3f28438f7fe48d1d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-09T11-34-07-0549.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_1-Debug-abeedf75ff32bb436bcf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/Exercise_1.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/Exercise_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 1/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/Exercise 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d3687956220df69c5458.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-54b5b11fc85a1ce2a87e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-53e2868abce3b2d09ccd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-09T11-45-34-0337.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_2-Debug-7e2ee7839109ba4e609d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/Exercise 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-46c924b3b9536e5b5165.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f9208968dcd375d98787.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fa3c499fe15814fa32b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-09T12-22-24-0396.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_3-Debug-656ffd910a4e06696339.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/Exercise 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-604282468ebd50dd7963.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3b2bd70df271f2b7d740.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-678ffe99f06dfdeb99d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-23T12-08-25-0883.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/target-Exercise_4-Debug-8d418b3d1ff236b7b896.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-48a8beeb3fff22276820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week 7/Exercise 4/main.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="3AO4WPS8htBjfxoyM258ffXUcz7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a72e65cc-12c2-4085-aef4-b7891c91bd3c" name="Changes" comment="" />
+      <created>1772450315136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772450315136</updated>
+      <workItem from="1772450318246" duration="318000" />
+      <workItem from="1774865506926" duration="1447000" />
+    </task>
+    <task id="LOCAL-00001" summary="Practice">
+      <created>1774866314398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774866314398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice" />
+  </component>
+</project>
