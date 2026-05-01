@@ -6,3 +6,10 @@
 #define COURSEWORK_IO_H
 
 #endif //COURSEWORK_IO_H
+
+#include <stdio.h>
+int fetchsamples(void);
+typedef struct
+{
+    double time, Va, Vb, Vc, lineCurrent, freq, Pfactor, THD;
+} waveformSample;
