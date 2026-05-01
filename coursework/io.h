@@ -5,11 +5,27 @@
 #ifndef COURSEWORK_IO_H
 #define COURSEWORK_IO_H
 
-#endif //COURSEWORK_IO_H
-
 #include <stdio.h>
-int fetchsamples(void);
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+
 typedef struct
 {
-    double time, Va, Vb, Vc, lineCurrent, freq, Pfactor, THD;
+    double values[8];
 } waveformSample;
+
+
+typedef struct {
+    waveformSample *data;
+    size_t size;
+} sampleArray;
+
+
+sampleArray fetchSamples(char*);
+int validate_sample(waveformSample*);
+int parse_line(char*, waveformSample*);
+
+#endif //COURSEWORK_IO_H
+
