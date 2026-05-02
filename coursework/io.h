@@ -22,11 +22,11 @@ typedef enum
     va,
     vb,
     vc,
-    lineI,
+    lineCurrent,
     freq,
-    pFactor,
+    pf,
     thd
-} waveformField;
+} wave;
 
 
 typedef struct {
