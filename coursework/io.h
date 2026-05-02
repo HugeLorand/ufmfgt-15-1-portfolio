@@ -23,7 +23,7 @@ typedef struct {
 } sampleArray;
 
 
-sampleArray fetchSamples(char*);
+void fetchSamples(waveformSample **samples, size_t *count);
 int validate_sample(waveformSample*);
 int parse_line(char*, waveformSample*);
 
