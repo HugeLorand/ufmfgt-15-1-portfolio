@@ -16,6 +16,18 @@ typedef struct
     double values[8];
 } waveformSample;
 
+typedef enum
+{
+    time,
+    va,
+    vb,
+    vc,
+    lineI,
+    freq,
+    pFactor,
+    thd
+} waveformField;
+
 
 typedef struct {
     waveformSample *data;
