@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include "waveform.h"
+#include "io.h"
 
 int main(void) {
-    printf("Hello, World!\n");
-    return 0;
+    if (report() == 0)
+    {
+       return 0;
+    }
+    return 1;
 }

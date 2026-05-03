@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include "waveform.h"
 
 
 typedef struct
@@ -38,6 +39,9 @@ typedef struct {
 void fetchSamples(waveformSample **samples, size_t *count);
 int validate_sample(waveformSample*);
 int parse_line(char*, waveformSample*);
+void output(FILE *out, v_results aRes, v_results bRes, v_results cRes, int clipped);
+int report();
+
 
 #endif //COURSEWORK_IO_H
 
