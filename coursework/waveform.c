@@ -5,7 +5,7 @@
 #include "waveform.h"
 
 
-int analyse()
+int analyse(char *filein, char * fileout)
 {
     waveformSample *values = NULL;
     size_t count = 0;
@@ -31,27 +31,6 @@ int analyse()
     thd_min  = thd_max  = r.values[thd];
 
     for (int i = 0; i < count; i++) {
-        r = values[i];
-        double vA = r.values[va];
-        double vB = r.values[vb];
-        double vC = r.values[vc];
-
-        vA_total_sqrd += vA * vA;
-        vB_total_sqrd_B += vB * vB;
-        vB_total_sqrd += vC * vC;
-        vA_total_v  += vA;
-        vB_total_v  += vB;
-        vC_total_v  += vC;
-
-        if (vA > vA_max) vA_max = vA;
-        if (vA < vA_min) vA_min = vA;
-        if (vB > vB_max) vB_max = vB;
-        if (vB < vB_min) vB_min = vB;
-        if (vC > vC_max) vC_max = vC;
-        if (vC < vC_min) vC_min = vC;
-
-        if (fabs(vA) >= 324.9 || fabs(vB) >= 324.9 || fabs(vC) >= 324.9) clipped++;
-
         if (r.values[freq]    < freq_min) freq_min = r.values[freq];
         if (r.values[freq]    > freq_max) freq_max = r.values[freq];
         if (r.values[pf] < pf_min)   pf_min   = r.values[pf];
@@ -70,4 +49,31 @@ int analyse()
               |optional|
         sort samples by voltage
         */
+}
+
+v_results phase_calc(waveformSample *samples, size_t count, int choice)
+{
+    v_results results;
+    int clipped = 0;
+    double v, v_total, v_total_sqrd, v_min, v_max;
+    v = v_total_sqrd = v_total = v_min = v_max = 0.0;
+    for (int i = 0; i < count; i++)
+    {
+        v = samples[i].values[choice];
+        if (v > v_max) v_max = v;
+        if (v < v_min) v_min = v;
+        if (fabs(v) >= 324.9)
+        {
+            clipped++;
+        }
+        v_total += v;
+        v_total_sqrd += v * v;
+
+
+    }
+    results.clipped = clipped;
+    results.peak_peak = v_max - v_min;
+    results.offset  = v_total;
+    results.rms = sqrt(v_total_sqrd);
+    return results;
 }

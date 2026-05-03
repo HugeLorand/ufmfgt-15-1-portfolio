@@ -12,5 +12,14 @@
 #include <math.h>
 #include <stdlib.h>
 
+typedef struct
+{
+    double rms;
+    double peak_peak;
+    double offset;
+    int clipped;
+
+}v_results;
+
 int calc(FILE *out1, FILE *out2);
 #endif //COURSEWORK_WAVEFORM_H
