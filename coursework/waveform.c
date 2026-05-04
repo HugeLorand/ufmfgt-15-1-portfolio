@@ -50,7 +50,7 @@ int calc(char *filein, FILE *fileout)
     double freq_mean = freq_total / count;
     free(values);
 
-    output(fileout,a,b,c,freq_min,freq_max,freq_mean,thd_min,thd_max,pf_min,pf_max,thd_min,thd_max,clippedTotal);
+    output(fileout,a,b,c,freq_min,freq_max,freq_mean,thd_min,thd_max,pf_min,pf_max,clippedTotal);
     return 0;
 }
 
