@@ -10,8 +10,8 @@ int calc(char *filein, FILE *fileout)
 {
     waveformSample *values = NULL;
     size_t count = 0;
-    fetchSamples(&values, &count);
-
+    fetchSamples(filein, &values, &count);
+    
     if (values == NULL || count == 0) {
         printf("No valid records found.\n");
         free(values);

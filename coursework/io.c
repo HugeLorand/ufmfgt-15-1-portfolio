@@ -6,9 +6,9 @@
 #include "waveform.h"
 
 
-void fetchSamples(waveformSample **samples, size_t *count)
+void fetchSamples(const char *filename, waveformSample **samples, size_t *count)
 {
-    FILE *fptr = fopen("C:\\Users\\loran\\OneDrive - UWE Bristol\\ufmfgt-15-1-portfolio\\coursework\\power_quality_log.csv", "r");
+    FILE *fptr = fopen(filename, "r");
     if (fptr == NULL) {
         perror("Failed to open file");
         return;
@@ -120,18 +120,25 @@ void output(FILE *out,
 
 int report()
 {
-    char file_to_read[255];
-    printf("Enter filename to read from : ");
-    scanf("%s", file_to_read);
-    FILE *log = fopen("C:\\Users\\loran\\OneDrive - UWE Bristol\\ufmfgt-15-1-portfolio\\coursework\\report.txt", "w");
-    if (log == NULL) {
-        perror("could not open report.txt");
+    char inputFile[512];
+
+    // Get input CSV path
+    printf("Enter input CSV filename (full path allowed): ");
+    fgets(inputFile, sizeof(inputFile), stdin);
+    inputFile[strcspn(inputFile, "\n")] = 0; // remove newline
+
+    FILE *log = fopen("report.txt", "w");
+    if (!log) {
+        perror("Could not open report.txt");
         return 1;
     }
 
-    int flag = calc(file_to_read,log);
-    printf("\n process finished");
-    getchar();
-    fclose(log);
+    int flag = calc(inputFile, log);
+    if (flag == 0) {
+        printf("\nProcess finished successfully. Report saved to report.txt\n");
+    } else {
+        printf("\nProcess failed.\n");
+    }
+
     return flag;
 }
