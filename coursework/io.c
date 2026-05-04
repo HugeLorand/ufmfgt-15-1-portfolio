@@ -75,9 +75,10 @@ void fetchSamples(waveformSample **samples, size_t *count)
 
 
 
-        // Close the file
-        fclose(fptr);
+
     }
+    // Close the file
+        fclose(fptr);
 }
 
 void output(FILE *out,
@@ -101,17 +102,17 @@ void output(FILE *out,
     const char *cC = (cRes.rms >= 207.0 && cRes.rms <= 253.0) ? "COMPLIANT" : "NON-COMPLIANT";
 
     fprintf(out,"--- :) Power Quality Analysis :) ---\n");
-    fprintf(out,"Phase A RMS: %.1f V (within 207-253 V tolerance band - %s)\n", aRes.rms, cA);
-    fprintf(out,"Phase A peak-to-peak: %.1f V\n", aRes.peak_peak);
-    fprintf(out,"Phase A DC offset: %.2f V\n", aRes.offset);
-    fprintf(out,"Phase B RMS: %.1f V (%s)\n", bRes.rms, cB);
-    fprintf(out,"Phase B peak-to-peak: %.1f V\n", bRes.peak_peak);
-    fprintf(out,"Phase B DC offset: %.2f V\n", bRes.offset);
-    fprintf(out,"Phase C RMS: %.1f V (%s)\n", cRes.rms, cC);
-    fprintf(out,"Phase C peak-to-peak: %.1f V\n", cRes.peak_peak);
-    fprintf(out,"Phase C DC offset: %.2f V\n", cRes.offset);
+    fprintf(out,"Phase A RMS: %.5f V (within 207-253 V tolerance band - %s)\n", aRes.rms, cA);
+    fprintf(out,"Phase A peak-to-peak: %.3f V\n", aRes.peak_peak);
+    fprintf(out,"Phase A DC offset: %.3f V\n", aRes.offset);
+    fprintf(out,"Phase B RMS: %.5f V (%s)\n", bRes.rms, cB);
+    fprintf(out,"Phase B peak-to-peak: %.3f V\n", bRes.peak_peak);
+    fprintf(out,"Phase B DC offset: %.3f V\n", bRes.offset);
+    fprintf(out,"Phase C RMS: %.5f V (%s)\n", cRes.rms, cC);
+    fprintf(out,"Phase C peak-to-peak: %.3f V\n", cRes.peak_peak);
+    fprintf(out,"Phase C DC offset: %.3f V\n", cRes.offset);
     fprintf(out,"Clipped samples (|V| >= 324.9 V, any phase): %d samples total\n", clipped);
-    fprintf(out,"Frequency range: %.3f Hz to %.3f Hz\n. Mean frequency drifted from nominal value (50Hz) by %.3f", freq_min, freq_max,(freq_mean-50.0));
+    fprintf(out,"Frequency range: %.5f Hz to %.5f Hz. Mean frequency drifted from nominal value (50Hz) by %.3f \n", freq_min, freq_max,(freq_mean-50.0));
     fprintf(out,"Power factor range: %.3f to %.3f\n", pf_min, pf_max);
     fprintf(out,"THD range: %.2f%% to %.2f%%\n", thd_min, thd_max);
 
@@ -122,7 +123,7 @@ int report()
     char file_to_read[255];
     printf("Enter filename to read from : ");
     scanf("%s", file_to_read);
-    FILE *log = fopen("report.txt", "w");
+    FILE *log = fopen("C:\\Users\\loran\\OneDrive - UWE Bristol\\ufmfgt-15-1-portfolio\\coursework\\report.txt", "w");
     if (log == NULL) {
         perror("could not open report.txt");
         return 1;
