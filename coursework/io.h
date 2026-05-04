@@ -7,33 +7,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <math.h>
-#include "waveform.h"
+#include "types.h"
 
 
-typedef struct
-{
-    double values[8];
-} waveformSample;
-
-typedef enum
-{
-    time,
-    va,
-    vb,
-    vc,
-    lineCurrent,
-    freq,
-    pf,
-    thd
-} wave;
-
-
-typedef struct {
-    waveformSample *data;
-    size_t size;
-} sampleArray;
 
 
 void fetchSamples(waveformSample **samples, size_t *count);

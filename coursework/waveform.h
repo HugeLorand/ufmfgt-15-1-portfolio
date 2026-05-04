@@ -6,20 +6,11 @@
 #define COURSEWORK_WAVEFORM_H
 
 #include <stdio.h>
-#include "waveform.h"
-#include "io.h"
-#include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#include "types.h"
 
-typedef struct
-{
-    double rms;
-    double peak_peak;
-    double offset;
-    int clipped;
 
-}v_results;
-
-int calc(FILE *out1, FILE *out2);
+int calc(char *in, FILE *out);
+v_results phase_calc(waveformSample *samples, size_t count, int choice);
 #endif //COURSEWORK_WAVEFORM_H
