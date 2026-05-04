@@ -5,6 +5,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(coursework main.c
         waveform.c
-        waveform.h
-        io.c
-        io.h)
+        io.c)

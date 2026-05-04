@@ -8,11 +8,14 @@
 
 void fetchSamples(waveformSample **samples, size_t *count)
 {
-    FILE *fptr = fopen("power_quality_log.csv", "r");
+    FILE *fptr = fopen("C:\\Users\\loran\\OneDrive - UWE Bristol\\ufmfgt-15-1-portfolio\\coursework\\power_quality_log.csv", "r");
     if (fptr == NULL) {
         perror("Failed to open file");
         return;
     }
+
+    char line[256];
+    fgets(line, sizeof(line), fptr); // skips header row
 
     *samples = NULL;
     size_t capacity = 32;
@@ -25,7 +28,6 @@ void fetchSamples(waveformSample **samples, size_t *count)
         return;
     }
 
-    char line[256];
 
     while (fgets(line, sizeof(line), fptr))
     {
@@ -49,7 +51,7 @@ void fetchSamples(waveformSample **samples, size_t *count)
             if (buffer == NULL)
             {
                 printf("Not able to reallocate memory.");
-                free(samples);
+                free(*samples);
                 fclose(fptr);
                 return;
             }
@@ -58,7 +60,7 @@ void fetchSamples(waveformSample **samples, size_t *count)
         //parse values to struct
 
         waveformSample *sample = &(*samples)[*count];
-        sscanf(line, "%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf",
+        if (sscanf(line, "%lf,%lf,%lf,%lf,%lf,%lf,%lf,%lf",
             &sample->values[0],
             &sample->values[1],
             &sample->values[2],
@@ -66,18 +68,31 @@ void fetchSamples(waveformSample **samples, size_t *count)
             &sample->values[4],
             &sample->values[5],
             &sample->values[6],
-            &sample->values[7]);
-        samples[*count] = sample;
-        (*count)++;
+            &sample->values[7]) == 8)
+        {
+            (*count)++;
+        }
+
+
+
+        // Close the file
+        fclose(fptr);
     }
+}
 
-
-
-    // Close the file
-    fclose(fptr);
-    }
-
-void output(FILE *out, v_results aRes, v_results bRes, v_results cRes, int clipped)//+freq,pf,thd
+void output(FILE *out,
+    v_results aRes,
+    v_results bRes,
+    v_results cRes,
+    double freq_min,
+    double freq_max,
+    double freq_mean,
+    double thd_min,
+    double thd_max,
+    double pf_min,
+    double pf_max,
+    int clipped
+    )
 {
 
 
@@ -96,7 +111,7 @@ void output(FILE *out, v_results aRes, v_results bRes, v_results cRes, int clipp
     fprintf(out,"Phase C peak-to-peak: %.1f V\n", cRes.peak_peak);
     fprintf(out,"Phase C DC offset: %.2f V\n", cRes.offset);
     fprintf(out,"Clipped samples (|V| >= 324.9 V, any phase): %d samples total\n", clipped);
-    fprintf(out,"Frequency range: %.3f Hz to %.3f Hz\n", freq_min, freq_max);
+    fprintf(out,"Frequency range: %.3f Hz to %.3f Hz\n. Mean frequency drifted from nominal value (50Hz) by %.3f", freq_min, freq_max,(freq_mean-50.0));
     fprintf(out,"Power factor range: %.3f to %.3f\n", pf_min, pf_max);
     fprintf(out,"THD range: %.2f%% to %.2f%%\n", thd_min, thd_max);
 

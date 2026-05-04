@@ -2,10 +2,11 @@
 // Created by loran on 10/04/2026.
 //
 
+#include "io.h"
 #include "waveform.h"
 
 
-int analyse(char *filein, char * fileout)
+int calc(char *filein, FILE *fileout)
 {
     waveformSample *values = NULL;
     size_t count = 0;
@@ -16,39 +17,41 @@ int analyse(char *filein, char * fileout)
         free(values);
         return 1;
     }
-    double vA_total_sqrd = 0.0, vB_total_sqrd_B = 0.0, vB_total_sqrd = 0.0;
-    double vA_total_v  = 0.0, vB_total_v  = 0.0, vC_total_v  = 0.0;
-    double vA_max, vA_min, vB_max, vB_min, vC_max, vC_min;
+
+    v_results a,b,c;
+    a = phase_calc(values, count, 1);
+    b = phase_calc(values, count, 2);
+    c = phase_calc(values, count, 3);
+    int clippedTotal = a.clipped + b.clipped + c.clipped;
+
     double freq_min, freq_max, pf_min, pf_max, thd_min, thd_max;
-    int clipped = 0;
 
-    waveformSample r = values[0];
-    vA_max = vA_min  = r.values[va];
-    vB_max = vB_min = r.values[vb];
-    vC_max = vC_min = r.values[vc];
-    freq_min = freq_max = r.values[freq];
-    pf_min   = pf_max   = r.values[pf];
-    thd_min  = thd_max  = r.values[thd];
 
-    for (int i = 0; i < count; i++) {
-        if (r.values[freq]    < freq_min) freq_min = r.values[freq];
-        if (r.values[freq]    > freq_max) freq_max = r.values[freq];
-        if (r.values[pf] < pf_min)   pf_min   = r.values[pf];
-        if (r.values[pf] > pf_max)   pf_max   = r.values[pf];
-        if (r.values[thd]  < thd_min)  thd_min  = r.values[thd];
-        if (r.values[thd]  > thd_max)  thd_max  = r.values[thd];
+    waveformSample i = values[0];
+    freq_min = freq_max = i.values[freq];
+    pf_min   = pf_max   = i.values[pf];
+    thd_min  = thd_max  = i.values[thd];
+    double freq_total = 0.0;
 
+    waveformSample *end = values + count;
+
+    for (waveformSample *p = values; p < end; p++) {
+        freq_total += p->values[freq];
+        if (p->values[freq] < freq_min) freq_min = p->values[freq];
+        if (p->values[freq] > freq_max) freq_max = p->values[freq];
+
+        if (p->values[pf] < pf_min) pf_min = p->values[pf];
+        if (p->values[pf] > pf_max) pf_max = p->values[pf];
+
+        if (p->values[thd] < thd_min) thd_min = p->values[thd];
+        if (p->values[thd] > thd_max) thd_max = p->values[thd];
 
     }
-        /*
-        phase_calc(samples, count, choice);
-        check_freq(samples, count, nominal);
-        read and report pf
-        read and report thd
+    double freq_mean = freq_total / count;
+    free(values);
 
-              |optional|
-        sort samples by voltage
-        */
+    output(fileout,a,b,c,freq_min,freq_max,freq_mean,thd_min,thd_max,pf_min,pf_max,thd_min,thd_max,clippedTotal);
+    return 0;
 }
 
 v_results phase_calc(waveformSample *samples, size_t count, int choice)
@@ -73,7 +76,7 @@ v_results phase_calc(waveformSample *samples, size_t count, int choice)
     }
     results.clipped = clipped;
     results.peak_peak = v_max - v_min;
-    results.offset  = v_total;
-    results.rms = sqrt(v_total_sqrd);
+    results.offset  = v_total/count;
+    results.rms = sqrt(v_total_sqrd/count);
     return results;
 }
